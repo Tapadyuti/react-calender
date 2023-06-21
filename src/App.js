@@ -1,9 +1,12 @@
-import React from 'react'
+import "./styles.css";
+import { useState } from "react";
+import Calendar from "./Calendar";
 
-function App() {
+
+export default function App() {
   return (
-    <div>React hello</div>
-  )
+    <div className="App">
+      <Calendar />
+    </div>
+  );
 }
-
-export default App;
